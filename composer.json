@@ -1,0 +1,28 @@
+{
+	"name": "cheecodes/algoliasearch",
+	"description": "Algolia Search driver for TYPO3 CMS",
+	"type": "typo3-cms-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fabian Bettag",
+			"email": "fabian@chee.codes",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "algolia_search"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"CheeCodes\\AlgoliaSearch\\": "Classes/"
+		}
+	},
+	"require": {
+		"php": "^7.1",
+		"algolia/algoliasearch-client-php": "^2.2"
+	}
+}
